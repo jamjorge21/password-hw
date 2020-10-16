@@ -1,0 +1,67 @@
+.wrapper {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1f71cf;
+}
+
+.wrapper {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  color: hsl(0, 0%, 100%);
+}
+
+h2 {
+  text-align: center;
+  color: hsl(0, 0%, 0%);
+}
+
+.card {
+  background-color: hsl(66, 100%, 53%);
+  font-size: 20px;
+  margin: auto;
+  max-width:1000px;
+  padding: 50px;
+}
+
+.card-header::after {
+  display: block;
+  width: 100%;
+  background: #ffffff;
+  height: 2px;
+}
+
+
+.card-footer {
+  text-align: center;
+}
+
+.btn {
+  border: none;
+  background-color: rgb(33, 42, 165);
+  color: hsl(0, 0%, 100%);
+  font-size: 20px;
+  line-height: 20px;
+  margin: 35px;
+  padding: 15px;
+  text-align: center;
+}
+
+
+#password {
+  width: 100%;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  text-align: center;
+  border: 5px dashed #000000;
+}
+
